@@ -27,6 +27,10 @@ Common
   margin: 0 auto;
 }
 
+.mb-5 {
+  margin-bottom: 5px;
+}
+
 /*
 **************
 Body
@@ -65,14 +69,16 @@ Main
 .member {
   height: 100px;
   width: calc(100% / 3 - 60px);
-  background-color: #0f0e17;
   float: left;
-  /* margin: 30px; */
+  margin: 30px;
+  background-color: #0f0e17;
   box-shadow: 0 0 5px black;
+  font-size: small;
 }
 
 .img-container {
   width: 100px;
+  float: left;
 }
 
 .img-container img {
@@ -82,7 +88,8 @@ Main
 
 .info-container {
   width: calc(100% - 100px);
-  padding: 15px;
+  height: 100%;
+  padding: 10px;
   float: left;
   color: white;
 }

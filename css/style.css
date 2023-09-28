@@ -1,0 +1,47 @@
+/*
+**************
+Reset
+**************
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+**************
+Common
+**************
+*/
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*
+**************
+Body
+**************
+*/
+
+body {
+  font-family: 'Fredoka', sans-serif;
+}
+
+/*
+**************
+Header
+**************
+*/
+
+header {
+  text-align: center;
+  padding: 45px;
+}
+
+h1 {
+  color: #e53170;
+}

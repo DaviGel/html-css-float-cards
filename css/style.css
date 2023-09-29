@@ -80,6 +80,7 @@ Main
 .img-container img {
   width: 100%;
   float: left;
+  display: block;
 }
 
 .info-container {

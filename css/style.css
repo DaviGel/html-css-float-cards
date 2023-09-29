@@ -27,10 +27,6 @@ Common
   margin: 0 auto;
 }
 
-.mb-5 {
-  margin-bottom: 5px;
-}
-
 /*
 **************
 Body
@@ -97,4 +93,9 @@ Main
 .info-container a {
   text-decoration: none;
   color: #00a9f4;
+}
+
+.member > .info-container * {
+  padding: 3px;
+  vertical-align: middle;
 }

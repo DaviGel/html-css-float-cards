@@ -93,9 +93,9 @@ Main
 .info-container a {
   text-decoration: none;
   color: #00a9f4;
+  vertical-align: middle;
 }
 
 .member > .info-container * {
   padding: 3px;
-  vertical-align: middle;
 }
